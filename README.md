@@ -15,5 +15,5 @@ This repo include source code for different design patterns.
 Enter the directory you would like, and then run:
 
 ```shell
-go test <NameOfThePattern>
+go test .
 ```

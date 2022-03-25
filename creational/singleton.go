@@ -3,7 +3,7 @@ package creational
 import "sync"
 
 var _singleton_once sync.Once
-var SingletonInstance Singleton
+var singletonInstance Singleton
 
 type singleton struct {
 	x int
@@ -18,13 +18,13 @@ type Singleton interface {
 }
 
 func GetInstance() Singleton {
-	if SingletonInstance == nil {
+	if singletonInstance == nil {
 		_singleton_once.Do(
 			func() {
-				SingletonInstance = &singleton{0, 0}
+				singletonInstance = &singleton{0, 0}
 			})
 	}
-	return SingletonInstance
+	return singletonInstance
 }
 
 func (p *singleton) GetX() int {
