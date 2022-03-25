@@ -1,6 +1,6 @@
 # Go Design Patterns
 
-Inspired by [go-patterns](https://github.com/tmrts/go-patterns), I tried to implement things here by myself. For more information, please visit [my blog](kitamura.moe).
+Inspired by [go-patterns](https://github.com/tmrts/go-patterns), I tried to implement things here by myself. For more information, please visit [my blog](https://kitamura.moe).
 
 ---
 
