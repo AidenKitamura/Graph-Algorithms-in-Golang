@@ -29,7 +29,7 @@ func Factory(t string) (p Product, err error) {
 	case "phoneScreen":
 		p = phoneScreen{"I am a 5 inch"}
 	default:
-		err = fmt.Errorf("Invalid Product Type: %s", t)
+		err = fmt.Errorf("invalid Product Type: %s", t)
 	}
 	return p, err
 }
